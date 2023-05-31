@@ -1,0 +1,109 @@
+* {
+  font-family: comic-sans;
+  color: black;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  background-color: tan;
+}
+
+nav a {
+  transition: 500ms;
+}
+
+.navbox {
+  position: relative;
+  width: 100%;
+  height: 10%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.NSL {
+  position: relative;
+  width: 5%;
+  height: 5%;
+}
+
+.NS1 {
+  position: relative;
+  width: 19%;
+  height: 5%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 1.5%;
+}
+
+.NS2 {
+  position: relative;
+  width: 19%;
+  height: 5%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 1.5%;
+}
+
+.NS3 {
+  position: relative;
+  width: 19%;
+  height: 5%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 1.5%;
+}
+
+.NS4 {
+  position: relative;
+  width: 19%;
+  height: 5%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 1.5%;
+}
+
+.NS5 {
+  position: relative;
+  width: 19%;
+  height: 5%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 1.5%;
+}
+
+nav a:hover {
+  color: red;
+  background-color: #bf7f17;
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+}
+
+
+
+    footer {
+      background-color: #343a40;
+      color: white;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
