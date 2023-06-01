@@ -14,11 +14,9 @@
     }
 
     body {
-      font-family: sans-serif;
       font-size: 16px;
       line-height: 1.5;
     }
-
 
     header {
       background-color: #f8d7da;
@@ -41,30 +39,46 @@
       padding: 20px;
     }
 
-    h2 {
+    .section-title {
       font-size: 24px;
-      margin-bottom: 10px;
+      margin-bottom: 20px;
     }
+
+    .menu-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 0;
+      background-color: #f8f9fa;
+      border-radius: 5px;
+      padding: 20px;
+      flex: 1;
+    }
+
+    .item-left {
+      flex: 1;
+      text-align: left;
+    }
+
+    .item-middle {
+      flex: 1;
+      text-align: center;
+    }
+
+    .item-right {
+      flex: 1;
+      text-align: right;
+    }
+
 
     p {
       margin-bottom: 20px;
     }
 
-    button {
-      background-color: #dc3545;
-      border: none;
+    img {
+      max-width: 100%;
+      height: auto;
       border-radius: 5px;
-      color: white;
-      cursor: pointer;
-      font-size: 18px;
-      padding: 10px 20px;
-      transition: background-color 0.2s ease;
     }
-
-    button:hover {
-      background-color: #c82333;
-    }
-
 
     footer {
       background-color: #343a40;
@@ -91,23 +105,127 @@
       <a class="NS5" href="reviews.html"><h3>Leave a Review</h3></a>
     </div>
   </nav>
+
   <main>
-<center><table border="1px solid black">
-	<caption>Menu of Dogs</caption>
-	<tr>
-		<th>Beef Dog</th> <td>ALL BEEF</td> <td>$5.00</td>
-	</tr>
-	<tr>
-		<th>Vegan Dog</th> <td>Vegan Stuff</td> <td>$6.00</td>
-	</tr>
-	<tr>
-		<th>Everything Dog</td> <td>Everything Imaginable</td> <td>$100,000,000,000,000.00</td>
-	</tr>
-</table></center>
+    <section>
+      <h2 class="section-title">Main Dishes</h2>
+      <div class="menu-item" style="background-color: #ffd700;">
+        <div class="item-left">
+          <h3>Beef Dog</h3>
+        </div>
+        <div class="item-middle">
+          <p>A delicious all-beef hot dog served with ketchup, mustard, and onions.</p>
+        </div>
+        <div class="item-right">
+          <img src="beefdog.png" alt="Classic Hot Dog" height="10%" width="30%">
+        </div>
+      </div>
+      <div class="menu-item" style="background-color: #32cd32;">
+        <div class="item-left">
+          <h3>Vegan Dog</h3>
+        </div>
+        <div class="item-middle">
+          <p>A hot dog here just for the vegans.</p>
+        </div>
+        <div class="item-right">
+          <img src="vegandog.png" alt="Vegan Dog" height="10%" width="30%">
+        </div>
+      </div>
+      <div class="menu-item" style="background-color: #ff4500;">
+        <div class="item-left">
+          <h3>BBQ Bacon Dog</h3>
+        </div>
+        <div class="item-middle">
+          <p>A mouthwatering hot dog with crispy bacon and delicious BBQ sauce.</p>
+        </div>
+        <div class="item-right">
+          <img src="bbqbacon.png" alt="BBQ Bacon Dog" height="10%" width="30%">
+        </div>
+      </div>
+      
+    </section>
+
+    <section>
+      <h2 class="section-title">Side Dishes</h2>
+      <div class="menu-item" style="background-color: #87ceeb;">
+        <div class="item-left">
+          <h3>Fries</h3>
+        </div>
+        <div class="item-middle">
+          <p>Classic French fries seasoned to perfection.</p>
+        </div>
+        <div class="item-right">
+          <img src="fries.png" alt="Fries" height="10%" width="30%">
+        </div>
+      </div>
+      <div class="menu-item" style="background-color: #ff69b4;">
+        <div class="item-left">
+          <h3>Onion Rings</h3>
+        </div>
+        <div class="item-middle">
+          <p>Crunchy and savory onion rings with a delightful golden coating.</p>
+        </div>
+        <div class="item-right">
+          <img src="onionrings.png" alt="Onion Rings" height="10%" width="30%">
+        </div>
+      </div>
+      <div class="menu-item" style="background-color: #ffd700;">
+        <div class="item-left">
+          <h3>Mozzarella Sticks</h3>
+        </div>
+        <div class="item-middle">
+          <p>Delicious breaded mozzarella sticks served with marinara sauce.</p>
+        </div>
+        <div class="item-right">
+          <img src="mozzarella.png" alt="Mozzarella Sticks" height="10%" width="30%">
+        </div>
+      </div>
+
+    </section>
+
+    <section>
+      <h2 class="section-title">Drinks</h2>
+      <div class="menu-item" style="background-color: #dc3545;">
+        <div class="item-left">
+          <h3>Soda</h3>
+        </div>
+        <div class="item-middle">
+          <p>A variety of refreshing sodas to quench your thirst.</p>
+        </div>
+        <div class="item-right">
+          <img src="soda.png" alt="Soda" height="10%" width="30%">
+        </div>
+      </div>
+      <div class="menu-item" style="background-color: #808080;">
+        <div class="item-left">
+          <h3>Iced Tea</h3>
+        </div>
+        <div class="item-middle">
+          <p>Chilled and refreshing iced tea available in different flavors.</p>
+        </div>
+        <div class="item-right">
+          <img src="icedtea.png" alt="Iced Tea" height="10%" width="30%">
+        </div>
+      </div>
+      <div class="menu-item" style="background-color: #32cd32;">
+        <div class="item-left">
+          <h3>Lemonade</h3>
+        </div>
+        <div class="item-middle">
+          <p>Tangy and sweet lemonade made with fresh lemons.</p>
+        </div>
+        <div class="item-right">
+          <img src="lemonade.png" alt="Lemonade" height="10%" width="30%">
+        </div>
+      </div>
 
 
+    </section>
   </main>
-   <footer>
+
+  <footer>
     <small>&copy; 2023 Hot Dogs on Wheels. All rights reserved. | Contact us at info@hotdogsonwheels.com</small>
   </footer>
 </body>
+
+</html>
